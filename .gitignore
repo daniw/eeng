@@ -13,6 +13,7 @@
 *-converted-to.*
 # these rules might exclude image files for figures etc.
 letter/letter.pdf
+factsheet/factsheet.pdf
 # *.ps
 # *.eps
 # *.pdf
