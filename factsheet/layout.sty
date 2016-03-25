@@ -12,6 +12,7 @@
 % Seiteneinstellungen
     \usepackage{lscape}         % Einzelne Seiten im Querformat
     \usepackage{pdflscape}      % Einzelne Seiten im Querformat (bessere Lesbarkeit)
+    \usepackage[a3paper]{geometry}  % A3
 
 % Farben
     \usepackage{color}          % Farben
@@ -45,6 +46,7 @@
     \usepackage{graphicx}       % Grafiken einbinden
     \usepackage{pdfpages}       % PDF Seiten einbinden
     \usepackage{caption}        % Bildunterschrift
+    \usepackage{wrapfig}
     \makeatletter       % @ Teil des Befehls
     \@ifclassloaded{beamer}{
         % Do not load package subcaption in beamer class
@@ -237,11 +239,11 @@
     \@ifclassloaded{article}{
         % TODO: Define all dimensions below!!!
         % \addtolength{\textheight}{3.5cm}
-        \addtolength{\voffset}{-4.5cm}
-        \addtolength{\textwidth}{3cm}
-        \addtolength{\textheight}{4.5cm}
-        \addtolength{\evensidemargin}{-15mm}
-        \addtolength{\oddsidemargin}{-15mm}
+        \addtolength{\voffset}{-3.8cm}
+        \addtolength{\textwidth}{10cm}
+        \addtolength{\textheight}{5.0cm}
+        \addtolength{\evensidemargin}{-5cm}
+        \addtolength{\oddsidemargin}{-5cm}
         % \addtolength{\headwidth}{5cm}
         \addtolength{\headheight}{2.5cm}
 
