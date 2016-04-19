@@ -14,6 +14,7 @@
 # these rules might exclude image files for figures etc.
 letter/letter.pdf
 factsheet/factsheet.pdf
+summary/summary.pdf
 # *.ps
 # *.eps
 # *.pdf
