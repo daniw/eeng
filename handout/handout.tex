@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+\usepackage{url}
+\usepackage[super]{nth}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}  % 
+\definecolor{gray}      {gray}  {0.749}
+\definecolor{lgray}     {gray}  {0.85}
+\definecolor{red}       {rgb}   {1 ,  0  , 0}
+\definecolor{green}     {rgb}   {0 ,  1  , 0}
+\definecolor{blue}      {rgb}   {0 ,  0  , 1}
+\definecolor{darkgreen} {rgb}   {0 , 0.6 , 0}
+\usepackage{longtable}
+\usepackage{multirow}
+\newenvironment{zebratabular}{\rowcolors{2}{lgray}{white}\tabular}{\endtabular}
+\newenvironment{zebralongtable}{\rowcolors{2}{lgray}{white}\longtable}{\endlongtable}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{EENG - Handout}
+\fancyhead[C]{Lucerne University of Applied Sciences and Arts\\Engineering \& Architecture}
+\fancyhead[R]{Manuel Cortez\\Sandro Wicki\\Daniel Winz}
+\fancyfoot[L]{\today}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{Production of an electronic device - Fire detector}
+\author{Manuel Cortez\\Sandro Wicki\\Daniel Winz}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+\input{summary}
+
+\section{Word bank}
+\input{word_bank}
+
+\section{Guiding questions}
+\input{guiding_questions}
+
+\section{References}
+\begin{itemize}
+    \item Siemens document
+\end{itemize}
+\end{document}
