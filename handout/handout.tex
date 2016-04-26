@@ -12,6 +12,11 @@
 \definecolor{darkgreen} {rgb}   {0 , 0.6 , 0}
 \usepackage{longtable}
 \usepackage{multirow}
+\usepackage{makeidx}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{apacite}
+\bibliographystyle{apacite} % 
 \newenvironment{zebratabular}{\rowcolors{2}{lgray}{white}\tabular}{\endtabular}
 \newenvironment{zebralongtable}{\rowcolors{2}{lgray}{white}\longtable}{\endlongtable}
 \usepackage{fancyhdr}
@@ -46,4 +51,6 @@
 \begin{itemize}
     \item Siemens document
 \end{itemize}
+\nocite{*}
+\bibliography{handout}
 \end{document}

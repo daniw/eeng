@@ -4,6 +4,8 @@ all: handout clean wordcount
 
 handout:
 	pdflatex handout.tex
+	bibtex   handout.aux
+	pdflatex handout.tex
 	pdflatex handout.tex
 	pdflatex handout.tex
 
